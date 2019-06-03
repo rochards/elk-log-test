@@ -19,7 +19,7 @@ public class App
             logger.debug("log test debug");
         	
         	try {
-				Thread.sleep(1000);
+				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				logger.error(e.getMessage());
